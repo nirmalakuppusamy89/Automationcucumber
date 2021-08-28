@@ -1,3 +1,4 @@
+@next
 Feature: Search Feature Test
   As a user
   I should search and retrieve the relevant products
