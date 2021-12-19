@@ -8,8 +8,10 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pageObjects.Header;
 
 public class SearchTests extends CommonFunctions {
+    Header header = new Header();
 
     private static final Logger LOGGER = LoggerFactory.getLogger(NextBasketTests.class);
 

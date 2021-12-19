@@ -20,6 +20,7 @@ public class NextBasketTests extends CommonFunctions {
         LOGGER.info("Getting the selected product name");
         expectedProductName = driver.findElement(
                 By.xpath("//*[@id=\"i1\"]/section/div[1]/h2/a/span")).getText();
+
         LOGGER.info("Selecting and opening the first item from the search results");
         driver.findElement(By.xpath("//*[@id=\"i1\"]/section/div[1]/h2/a/span")).click();
 
